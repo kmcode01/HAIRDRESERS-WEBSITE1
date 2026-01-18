@@ -18,11 +18,11 @@
             <!-- NAVIGATION -->
             <nav class="navbar">
                 <ul class="nav-menu">
-                    <li><a href="#home" class="nav-link">Home</a></li>
-                    <li><a href="#services" class="nav-link">Services</a></li>
-                    <li><a href="#about" class="nav-link">About Us</a></li>
-                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
-                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="about.html" class="nav-link">About Us</a></li>
+                    <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -35,12 +35,39 @@
             <div class="hero-content">
                 <h2>Welcome to Elite Salon Studio</h2>
                 <p>Experience luxury hair care and professional styling</p>
-                <button class="cta-button">Book an Appointment</button>
+                <button class="cta-button" onclick="window.location.href='contact.html'">Book an Appointment</button>
             </div>
         </section>
 
-        <!-- Services Section -->
-        <section id="services" class="services">
+        <!-- Quick Navigation Icons -->
+        <section class="quick-nav">
+            <h2>Explore</h2>
+            <div class="icon-grid">
+                <a href="services.html" class="icon-card">
+                    <div class="icon-box">✂️</div>
+                    <h3>Services</h3>
+                    <p>View all our professional services</p>
+                </a>
+                <a href="gallery.html" class="icon-card">
+                    <div class="icon-box">🖼️</div>
+                    <h3>Gallery</h3>
+                    <p>Browse our latest work</p>
+                </a>
+                <a href="about.html" class="icon-card">
+                    <div class="icon-box">👥</div>
+                    <h3>About Us</h3>
+                    <p>Learn about our salon</p>
+                </a>
+                <a href="contact.html" class="icon-card">
+                    <div class="icon-box">📞</div>
+                    <h3>Contact</h3>
+                    <p>Get in touch with us</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- Featured Services Preview -->
+        <section class="services-preview">
             <h2>Our Services</h2>
             <div class="services-grid">
                 <div class="service-card">
@@ -60,18 +87,24 @@
                     <p>Expert styling for special occasions and everyday looks</p>
                 </div>
             </div>
+            <div style="text-align: center; margin-top: 30px;">
+                <a href="services.html" class="view-all-link">View All Services →</a>
+            </div>
         </section>
 
-        <!-- About Section -->
-        <section id="about" class="about">
+        <!-- About Preview -->
+        <section class="about-preview">
             <h2>About Elite Salon Studio</h2>
             <p>With over 15 years of experience, our team of certified professionals is dedicated to providing exceptional hair services. We use only the highest quality products and techniques to ensure your satisfaction.</p>
+            <div style="text-align: center; margin-top: 20px;">
+                <a href="about.html" class="view-all-link">Learn More About Us →</a>
+            </div>
         </section>
 
-        <!-- Gallery Section -->
-        <section id="gallery" class="gallery">
-            <h2>Gallery</h2>
-            <div class="gallery-grid">
+        <!-- Gallery Preview -->
+        <section class="gallery-preview">
+            <h2>Our Latest Work</h2>
+            <div class="gallery-grid-preview">
                 <div class="gallery-item">
                     <img src="Image/Man style.jpg" alt="Hairstyle 1">
                 </div>
@@ -81,26 +114,9 @@
                 <div class="gallery-item">
                     <img src="Image/man style (2).jpg" alt="Hairstyle 3">
                 </div>
-                <div class="gallery-item">
-                    <img src="Image/man style (3).jpg" alt="Hairstyle 4">
-                </div>
-                <div class="gallery-item">
-                    <img src="Image/man style (4).jpg" alt="Hairstyle 5">
-                </div>
-                <div class="gallery-item">
-                    <img src="Image/man style (5).jpg" alt="Hairstyle 6">
-                </div>
             </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section id="contact" class="contact">
-            <h2>Contact Us</h2>
-            <div class="contact-info">
-                <p><strong>Phone:</strong> (555) 123-4567</p>
-                <p><strong>Email:</strong> info@elitesalon.com</p>
-                <p><strong>Address:</strong> 123 Beauty Street, Hair City, ST 12345</p>
-                <p><strong>Hours:</strong> Mon-Fri 9AM-6PM, Sat 10AM-4PM, Sun Closed</p>
+            <div style="text-align: center; margin-top: 30px;">
+                <a href="gallery.html" class="view-all-link">View Full Gallery →</a>
             </div>
         </section>
     </main>
